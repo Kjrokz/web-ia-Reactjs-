@@ -1,0 +1,82 @@
+@media (max-width: 975px) {
+  .screen-contenedor {
+    display: block !important;
+  }
+  .item {
+    width: 100% !important;
+  }
+
+  /* .nav {
+    display: none !important;
+  } */
+  /* .responsive {
+    display: inline;
+    &:hover {
+      cursor: pointer;
+    }
+  } */
+  .paddingB {
+    padding-bottom: 20px;
+  }
+  .dropdown-menu {
+    background-color: darkgrey !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .foto {
+    height: 35vh !important;
+  }
+
+  .fotoWebcam {
+    height: 46vh !important;
+  }
+
+  .imagen {
+    height: 34.3vh !important;
+  }
+  .imagenWebcam {
+    height: 45.33vh !important;
+  }
+
+  .play {
+    height: 25.6vh !important;
+  }
+  .imagenV {
+    height: 25vh !important;
+  }
+  .fondo {
+    background-image: url("../assets//images/fondo2.jpg") !important;
+  }
+}
+
+@media (min-width: 975px) {
+  /* .responsive {
+    display: none !important;
+  } */
+  .paddingB {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 850px) and (max-height: 420px) {
+  .foto {
+    height: 90vh !important;
+  }
+  .imagen {
+    height: 89.3vh !important;
+  }
+  .fotoWebcam {
+    height: 90vh !important;
+  }
+  .imagenWebcam {
+    height: 89.3vh !important;
+  }
+
+  .play {
+    height: 85vh !important;
+  }
+  .imagenV {
+    height: 84vh !important;
+  }
+}
